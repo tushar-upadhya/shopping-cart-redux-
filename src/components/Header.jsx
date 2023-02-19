@@ -45,18 +45,18 @@ const Header = () => {
     }, [total]);
 
     return (
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="dark" variant="dark" style={{ height: "4rem" }}>
             <Container>
                 <NavLink
                     to="/"
-                    className="text-decoration-none text-light mx-3"
+                    className="text-decoration-none text-light mx-5 "
                 >
-                    Add to Cart
+                    Home
                 </NavLink>
 
                 <Nav className="me-auto">
                     <NavLink to="/" className="text-decoration-none text-light">
-                        Home
+                        Menu
                     </NavLink>
                 </Nav>
 
